@@ -1,0 +1,65 @@
+```javascript```
+document.querySelector('.tweet')
+## css selector tag in quotes 
+let tweet = document.querySelector('.tweet')
+
+####### can be saved to var
+
+tweet.innerText = "coding etc"
+
+changes the tweet.
+
+let tweetList = document.querySelectorALL('.js-tweet-text')
+
+## recieves  a nodelist similar to an array 
+
+tweetsList[1].innerText = "something"
+
+tweetsList.forEach(node => {node.innerText = "hello"})
+
+changes all tweets to "hello"
+
+document.getElementsByClassName()
+
+# you cannot each an html collection but you can 
+
+let HTMLCollection = 
+
+Array.from(HTMLCoolection) converts into array.
+
+#####
+document.querySelector('.fn')
+
+document.addEventListener("DOMcontentLoaded", function(){
+	console.log(document.querySelector('table'))
+})
+
+
+insert new tr node then add children three td's.  #this correspondes with the lesson.
+
+document.createElement('tr')
+
+let tr Element = document.createElement('tr')
+
+function getTableBody(){
+	return document.querySelector('tbody')
+}
+
+getTableBody().appendChild(trElement)
+adds element
+
+
+
+function addInstructorToTable(){
+	let trElement = document.createElement('tr')
+	getTableBody().appendChild(trElement)
+	}
+}
+
+trElement.innerHTML = 'row-4'
+
+trElement.id = "row-4"
+
+innertext changes the content of the html
+
+tbodyElement.innerHTML += '<tr id= "row-4">
